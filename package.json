@@ -1,0 +1,18 @@
+{
+  "name": "web-a11y-workshop",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src --mount=/node_modules:./node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Roes <mail@timroes.de>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.0.0-beta.34"
+  }
+}
