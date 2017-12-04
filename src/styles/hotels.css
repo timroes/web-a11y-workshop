@@ -1,0 +1,29 @@
+.hotel:not(.expanded) .hotel-details {
+	display: none;
+}
+
+.hotel {
+	flex-wrap: wrap;
+}
+
+.hotel-details {
+	margin-top: 0.4em;
+	padding-left: 0.5em;
+	border-left: 3px solid gray;
+}
+
+.toggle-details {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.hotel .fa-caret-right {
+	transition: transform 0.2s ease;
+}
+.hotel.expanded .fa-caret-right {
+	transform: rotate(90deg);
+}
+
+.rating {
+	width: 6em;
+}
