@@ -6,6 +6,10 @@
 	flex-wrap: wrap;
 }
 
+.hotel-title {
+  flex: 1;
+}
+
 .hotel-details {
 	margin-top: 0.4em;
 	padding-left: 0.5em;
