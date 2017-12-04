@@ -28,6 +28,7 @@ The following accessibility issues exist in this project.
 - The star rating has no good textual representation.
 - The expand/collapse for details could is lacking ARIA and labels.
 - The booking button is using an link element. Is it a navigation?
+- The recommendation thumb up is only using color to convey its information.
 
 ## Tabs
 

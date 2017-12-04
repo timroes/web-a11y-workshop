@@ -7,8 +7,8 @@ module.exports = {
 		{ id: 'FR110', carrier: 'Ryanair', from: 'WMI', to: 'DUB', dep: '2017-12-11 15:15' }
 	],
 	hotels: [
-		{ id: 'q-plus', title: 'Q Hotel Plus', price: '110€', stars: 3, description: hotelDescription },
-		{ id: 'raddision', title: 'Raddision Blue', price: '150€', stars: 5, description: hotelDescription },
-		{ id: 'novotel', title: 'Novotel', price: '120€', stars: 3, description: hotelDescription },
+		{ id: 'q-plus', title: 'Q Hotel Plus', price: '110€', stars: 3, description: hotelDescription, recommendation: 71 },
+		{ id: 'raddision', title: 'Raddision Blue', price: '150€', stars: 5, description: hotelDescription, recommendation: 98 },
+		{ id: 'novotel', title: 'Novotel', price: '120€', stars: 3, description: hotelDescription, recommendation: 60 },
 	]
 };
